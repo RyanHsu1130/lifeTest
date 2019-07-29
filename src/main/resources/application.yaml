@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: lifeTest
+  http:
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+      
+server:
+  servlet:
+    context-path: /lifetest
+
+# token encrypt key
+token:
+  secret: secret
+  expiration: 604800
+

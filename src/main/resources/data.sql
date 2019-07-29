@@ -1,0 +1,4 @@
+
+-- USER
+-- non-encrypted password: test
+INSERT INTO USER (ID, USER_NAME, PASSWORD, ACCOUNT, IS_LOGIN, CREATE_DATE, UPDATE_DATE) VALUES (1, 'Ryan', '$2a$10$pSMAQezRL7dXmg8ckH8ed.G1vFnc6QRtXdL4rSMCemmfVk5BF9Kle', 0, 0, '2019-07-29', '2019-07-29');
